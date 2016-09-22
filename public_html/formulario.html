@@ -3,9 +3,25 @@
     <head>
         <title>Formulario</title>
         <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: pink;
+            }
+            table{
+                background-color: lightblue;
+            }
+            tr, td{
+                text-align: center;
+            }
+            .col1{
+                text-align: right;
+            }
+            
+        </style>
+        <!--add table to this and align it, add class="" to the 1st tds--> 
     </head>
     <body>
-        <form name="form1" method="post" action="">
+        <form name="form1" method="get" action="">
             Nome: <input type="text" name="nome"/><br/>
             Nascimento: <input type="date" name="niver"/>
             Filhos: <input type="number" min="0" max="5" name="filhos"/><br/>
