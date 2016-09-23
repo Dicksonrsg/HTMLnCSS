@@ -1,0 +1,29 @@
+
+.b1{
+    border: none;
+    background-color: green;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.b1:hover{
+    background-color: lime;
+}
+
+.b2{
+    border: none;
+    background-color: orangered;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;    
+}
+
+.b2{
+    background-color: orange;
+}
+
+h1{
+    font-family: "sans-serif";
+}
+
