@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina com Bootstrap</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <input type="text" class="form-control" placeholder="Nome"/></br>
+                        <input type="text" class="form-control" placeholder="Sobrenome"/></br>
+                        <input type="text" class="form-control" placeholder="Endereço"/></br>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <legend>Sexo</legend>
+                                <div class="col-md-6">
+                                <input type="radio" name="sexo" class="form-group"/>Masculino
+                                </div>
+                                <div class="col-md-6">
+                                <input type="radio" name="sexo" class="form-group"/>Femnino
+                                </div>
+                            </fieldset>
+                        </div>
+                    </fieldset>
+                    </div>               
+                </div>   
+                <div class="row">
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend>Dados Financeiros</legend>
+                            <select class="form-control">
+                                <option>Visa</option>
+                                <option>Master</option>
+                                <option>Elo</option>
+                            </select>
+                        </fieldset></br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="btn btn-danger">Danger</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-success">
+                                <span class="glyphicon glyphicon-ok">Vai</span>
+                            </button>
+                        </div>
+                    </div>                        
+                    </div>
+            </form>    
+        </div>
+    </body>
+</html>
